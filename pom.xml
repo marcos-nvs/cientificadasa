@@ -31,13 +31,13 @@
                         </goals>
                         <configuration>
                             <wsdlFiles>
-                                <wsdlFile>ciewebservice.dasa.com.br/wsintegra/LoteExamesXmlReceiver.wsdl</wsdlFile>
+                                <wsdlFile>localhost_8080/wsintegra/LoteExamesXmlReceiver.wsdl</wsdlFile>
                             </wsdlFiles>
                             <packageName></packageName>
                             <vmArgs>
                                 <vmArg>-Djavax.xml.accessExternalSchema=all</vmArg>
                             </vmArgs>
-                            <wsdlLocation>http://ciewebservice.dasa.com.br/wsintegra/LoteExamesXmlReceiver?wsdl</wsdlLocation>
+                            <wsdlLocation>http://localhost:8080/wsintegra/LoteExamesXmlReceiver?wsdl</wsdlLocation>
                             <staleFile>${project.build.directory}/jaxws/stale/LoteExamesXmlReceiver.stale</staleFile>
                         </configuration>
                         <id>wsimport-generate-LoteExamesXmlReceiver</id>
